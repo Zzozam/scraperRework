@@ -23,7 +23,7 @@ def scrapePictures():
 		if file in noneWorking:
 			os.remove(name + ".jpg")	
 		else:
-			print "[+] " + printsc
+			print ("[+] " + printsc)
 
 
 
@@ -34,7 +34,7 @@ while (tempVar2 <= threadAmount):
 		thread.start_new_thread(scrapePictures, ())
 		tempVar2 += 1
 	except:
-		print "Error"
+		print ("Error")
 
 
 while (True):
