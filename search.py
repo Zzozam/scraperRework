@@ -1,5 +1,4 @@
 import string, random, urllib, os, thread, array, sys
-os.chdir('/home/alexey/PHOTOSCRAP/photo1')
 if len(sys.argv) < 2:
     sys.exit("\033[37mUsage: python " + sys.argv[0] + " (Number of threads)")
 threadAmount = int(sys.argv[1])
